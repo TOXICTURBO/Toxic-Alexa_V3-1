@@ -1,5 +1,0 @@
-build:
-  docker:
-      worker: /Dockerfile
-run:
-   worker: node . --db 'mongodb+srv://TURBOHYPER:Toxic-Alexa_V3@cluster0.4nojt.mongodb.net/?retryWrites=true&w=majority'
